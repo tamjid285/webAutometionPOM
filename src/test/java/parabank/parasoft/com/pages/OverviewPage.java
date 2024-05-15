@@ -3,9 +3,7 @@ package parabank.parasoft.com.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class OverviewPage extends BasePage{
-
-
+public class OverviewPage extends BasePage {
     public OverviewPage(WebDriver driver) {
         super(driver);
     }
@@ -18,4 +16,5 @@ public class OverviewPage extends BasePage{
         getWebElement(By.linkText("Open New Account")).click();
         return getInstance(OpenNewAccountPage.class);
     }
+
 }

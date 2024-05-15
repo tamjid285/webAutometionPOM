@@ -1,9 +1,11 @@
 package parabank.parasoft.com.pages;
 
+import com.aventstack.extentreports.Status;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import parabank.parasoft.com.report.ReportTestManager;
 
 import java.util.List;
 
